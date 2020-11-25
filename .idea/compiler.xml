@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-provider-hystrix-payment8003" />
+        <module name="cloud-server-eureka7002" />
+        <module name="cloud-server-eureka7001" />
+        <module name="cloud-common" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-consume-feign-oder80" />
+        <module name="cloud-consume-oder" />
+        <module name="cloud-provider-payment8002" />
+        <module name="cloud-consume-hystrix-oder80" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-consume-feign-oder80" options="" />
+      <module name="cloud-consume-oder" options="" />
+      <module name="cloud-provider-hystrix-payment8003" options="" />
+      <module name="cloud-provider-payment8002" options="" />
+      <module name="cloud-server-eureka7002" options="" />
+    </option>
+  </component>
+</project>
