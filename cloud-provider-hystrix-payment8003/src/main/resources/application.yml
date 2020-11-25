@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: cloud-hystrix-payment
+    name: cloud-hystrix-payment8003
 
 eureka:
   client:
